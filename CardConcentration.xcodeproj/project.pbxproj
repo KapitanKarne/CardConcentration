@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E79551422C9707A00EFF5D5 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79551322C9707A00EFF5D5 /* Concentration.swift */; };
+		7E79551622C9714000EFF5D5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79551522C9714000EFF5D5 /* Card.swift */; };
 		7E7E3CCA22B9C84F008AAE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3CC922B9C84F008AAE72 /* AppDelegate.swift */; };
 		7E7E3CCC22B9C84F008AAE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3CCB22B9C84F008AAE72 /* ViewController.swift */; };
 		7E7E3CCF22B9C84F008AAE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E3CCD22B9C84F008AAE72 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E79551322C9707A00EFF5D5 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		7E79551522C9714000EFF5D5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7E7E3CC622B9C84F008AAE72 /* CardConcentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardConcentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7E3CC922B9C84F008AAE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E7E3CCB22B9C84F008AAE72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E79551722C9714F00EFF5D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E79551322C9707A00EFF5D5 /* Concentration.swift */,
+				7E79551522C9714000EFF5D5 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7E7E3CBD22B9C84F008AAE72 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 			children = (
 				7E7E3CC922B9C84F008AAE72 /* AppDelegate.swift */,
 				7E7E3CCB22B9C84F008AAE72 /* ViewController.swift */,
+				7E79551722C9714F00EFF5D5 /* Model */,
 				7E7E3CCD22B9C84F008AAE72 /* Main.storyboard */,
 				7E7E3CD022B9C851008AAE72 /* Assets.xcassets */,
 				7E7E3CD222B9C851008AAE72 /* LaunchScreen.storyboard */,
@@ -258,6 +272,8 @@
 			files = (
 				7E7E3CCC22B9C84F008AAE72 /* ViewController.swift in Sources */,
 				7E7E3CCA22B9C84F008AAE72 /* AppDelegate.swift in Sources */,
+				7E79551422C9707A00EFF5D5 /* Concentration.swift in Sources */,
+				7E79551622C9714000EFF5D5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
