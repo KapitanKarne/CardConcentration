@@ -237,9 +237,12 @@
                                     <constraint firstAttribute="height" constant="50" id="Nfp-ap-dtQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Menu">
+                                <state key="normal" title="Reset">
                                     <color key="titleColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mQU-7N-hFd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -258,7 +261,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="flipCountLabel" destination="Odb-Dh-ZG1" id="G4b-vN-7AS"/>
+                        <outlet property="resetButtonOutlet" destination="W41-xx-qZX" id="8B7-MK-ERa"/>
+                        <outlet property="scoreCountLabel" destination="Odb-Dh-ZG1" id="GxJ-6f-ZSy"/>
                         <outletCollection property="cardButtons" destination="5y5-pO-3kj" collectionClass="NSMutableArray" id="MrS-7D-6wO"/>
                         <outletCollection property="cardButtons" destination="tLT-rQ-t2n" collectionClass="NSMutableArray" id="dVf-2h-m3O"/>
                         <outletCollection property="cardButtons" destination="Efb-ax-0Cx" collectionClass="NSMutableArray" id="22W-Ro-uU1"/>

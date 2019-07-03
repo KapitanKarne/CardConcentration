@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E79551422C9707A00EFF5D5 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79551322C9707A00EFF5D5 /* Concentration.swift */; };
 		7E79551622C9714000EFF5D5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79551522C9714000EFF5D5 /* Card.swift */; };
+		7E79551922CC4C9500EFF5D5 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79551822CC4C9500EFF5D5 /* Themes.swift */; };
 		7E7E3CCA22B9C84F008AAE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3CC922B9C84F008AAE72 /* AppDelegate.swift */; };
 		7E7E3CCC22B9C84F008AAE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E3CCB22B9C84F008AAE72 /* ViewController.swift */; };
 		7E7E3CCF22B9C84F008AAE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E3CCD22B9C84F008AAE72 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		7E79551322C9707A00EFF5D5 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		7E79551522C9714000EFF5D5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7E79551822CC4C9500EFF5D5 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 		7E7E3CC622B9C84F008AAE72 /* CardConcentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardConcentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7E3CC922B9C84F008AAE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E7E3CCB22B9C84F008AAE72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				7E79551322C9707A00EFF5D5 /* Concentration.swift */,
 				7E79551522C9714000EFF5D5 /* Card.swift */,
+				7E79551822CC4C9500EFF5D5 /* Themes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				7E7E3CCC22B9C84F008AAE72 /* ViewController.swift in Sources */,
 				7E7E3CCA22B9C84F008AAE72 /* AppDelegate.swift in Sources */,
 				7E79551422C9707A00EFF5D5 /* Concentration.swift in Sources */,
+				7E79551922CC4C9500EFF5D5 /* Themes.swift in Sources */,
 				7E79551622C9714000EFF5D5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
