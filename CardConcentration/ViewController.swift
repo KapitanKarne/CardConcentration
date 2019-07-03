@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         }
     }
     
+    var selectedCardNumber = 0
+    
     @IBOutlet weak var flipCountLabel: UILabel!
     
     @IBOutlet var cardButtons: [UIButton]!
@@ -30,9 +32,26 @@ class ViewController: UIViewController {
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
             print("cardNumber = \(cardNumber)")
+            if (selectedCardNumber != cardNumber) {
+                animateButtons(withButton: sender)
+            }
+            selectedCardNumber = cardNumber
         } else {
             print("chosen card was not in cardButtons")
         }
+        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    func animateButtons(withButton button: UIButton) {
+        
+        UIView.transition(with: button, duration: 0.6, options: .transitionFlipFromLeft, animations: {
+            
+        }, completion: nil)
         
     }
     
@@ -46,6 +65,7 @@ class ViewController: UIViewController {
             } else {
                 button.setTitle("", for: UIControl.State.normal)
                 button.backgroundColor = card.isMatched ? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0) : #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
+                
             }
         }
     }
